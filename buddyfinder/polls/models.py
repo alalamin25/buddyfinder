@@ -1,5 +1,6 @@
 from django.db import models
 
+#just a commnet
 
 class Question(models.Model):
     question_text = models.CharField(max_length=200)
